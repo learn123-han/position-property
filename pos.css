@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+.fixed{
+    position: fixed;
+    top: 130px;
+    left: 10px;
+    border: 1px solid black;
+    background: rgb(56, 197, 240);
+
+}
+.absolute{
+    position: absolute;
+    background: yellow;
+    top: 60px;
+    left: 600px;
+    
+}
+.relative{
+    position : relative;
+    width:500px;
+    height:600px;
+    top : 200px;
+    left : 300px;
+    
+}
+.static{
+    position : static;
+    padding: 5px;
+    border: 1px #110505 dotted;
+    background: pink;
+}
+.sticky{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    background: #149776;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #000000;
+}
